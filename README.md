@@ -4,6 +4,17 @@ A simple, focused Python tool that compares two images and produces a **pure num
 
 The goal is to separate raw, reproducible data from interpretation. The script outputs only objective metrics. Any analysis or opinion is left to the reader (or to an AI of their choice).
 
+## Demo Images
+
+<p align="center">
+  <img src="examples/JPEG.jpg" alt="Original JPEG" width="48%" />
+  <img src="examples/PNG.png" alt="Converted PNG" width="48%" />
+</p>
+
+<p align="center">
+  <em>Left: original JPEG &nbsp;&nbsp;|&nbsp;&nbsp; Right: PNG converted from the JPEG</em>
+</p>
+
 ## Features
 
 - File size, format, mode and dimensions
@@ -28,7 +39,11 @@ The report is printed to the console and also saved as `forensic_report.txt`.
 
 ## Example
 
-See the `examples/` folder for a real JPEG → PNG conversion pair, the generated report, and a sample analysis.
+See the `examples/` folder for:
+
+- The original JPEG and the converted PNG shown above
+- The generated `forensic_report.txt`
+- A sample analysis (`analysis.md`)
 
 ## Philosophy
 
