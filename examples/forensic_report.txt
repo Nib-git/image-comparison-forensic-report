@@ -1,0 +1,62 @@
+========================================================================
+IMAGE COMPARISON FORENSIC REPORT
+========================================================================
+Generated: 2026-11-23 12:22:08
+
+FILES
+------------------------------------------------------------------------
+Image A : JPEG.jpg
+  Path   : JPEG.jpg
+  Size   : 193.39 KB (198035 bytes)
+  Format : JPEG
+  Mode   : RGB
+  Dim.   : 768 × 1344 px
+
+Image B : PNG.png
+  Path   : PNG.png
+  Size   : 1199.84 KB (1228639 bytes)
+  Format : PNG
+  Mode   : RGBA
+  Dim.   : 768 × 1344 px
+
+GLOBAL METRICS
+------------------------------------------------------------------------
+Identical pixels      : NO
+Maximum difference    : 106
+Mean absolute diff.   : 3.622534
+Median absolute diff. : 3.0
+Std. deviation        : 3.466348
+MSE                   : 25.138325
+PSNR                  : 34.13 dB
+SSIM (approx.)        : 0.952412
+Different pixels      : 2,795,431 / 3,096,576
+Percent different     : 90.2749 %
+
+PER-CHANNEL METRICS
+------------------------------------------------------------------------
+Channel R:
+  Max difference   : 106
+  Mean             : 3.4647
+  Median           : 3.0
+  % pixels ≠       : 91.9 %
+
+Channel G:
+  Max difference   : 103
+  Mean             : 3.5746
+  Median           : 3.0
+  % pixels ≠       : 91.13 %
+
+Channel B:
+  Max difference   : 96
+  Mean             : 3.8284
+  Median           : 3.0
+  % pixels ≠       : 87.8 %
+
+NOTES
+------------------------------------------------------------------------
+- PSNR = ∞ and SSIM = 1.0 indicate pixel-perfect identity.
+- PSNR > 40 dB is generally considered visually excellent.
+- PSNR 30–40 dB is typical of medium-to-high quality JPEG.
+- SSIM close to 1.0 indicates high structural similarity.
+- This report contains only pure numerical data.
+========================================================================
